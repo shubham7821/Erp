@@ -1,14 +1,8 @@
-[![Join the chat at https://gitter.im/formio/formio](https://badges.gitter.im/formio/formio.svg)](https://gitter.im/formio/formio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![StackOverflow](https://www.codewake.com/badges/codewake2.svg)](http://stackoverflow.com/tags/formio)
 
-A combined form and API platform for Serverless applications
 ================================
 Form.io is a revolutionary combined Form and API platform for Serverless applications. This repository serves as the core Form and API engine for https://form.io. This system allows you to build "serverless" data management applications using a simple drag-and-drop form builder interface. These forms can then easily be embedded within your Angular.js and React applications using the
 ```<formio>``` HTML element.
 
-Walkthrough video and tutorial
--------------------
-For a walkthrough tutorial on how to use this Open Source platform to build a Serverless application, watch the video [0 to M.E.A.N in 30 minutes](https://www.youtube.com/watch?v=d2gTYkPFhPI)
 
 Form Building & Rendering Demo
 -------------------
@@ -95,28 +89,7 @@ If you wish to deploy all of your forms and resources into the Form.io Hosted pl
 npm install -g formio-cli
 ```
 
-Once you have this tool installed, you will need to follow these steps.
- - Create a new project within Form.io
- - Create an API Key within this project by going to the **Project Settings | Stage Settings | API Keys**
- - Next, you can execute the following command to deploy your local project into Hosted Form.io.
 
-```
-formio deploy http://localhost:3001 https://{PROJECTNAME}.form.io --dst-key={APIKEY}
-```
-
-You will need to make sure you replace ```{PROJECTNAME}``` and ```{APIKEY}``` with your new Hosted Form.io project name (found in the API url), as well as the API key that was created in the second step above.
-
-This will then ask you to log into the local Form.io server (which can be provided within the Admin resource), and then after it authenticates, it will export the project and deploy that project to the Form.io hosted form.
-
-License Change (March 8th, 2020)
---------------------
-This library is now licensed under the OSL-v3 license, which is a copy-left OSI approved license. Please read the license @ https://opensource.org/licenses/OSL-3.0 for more information. Our goal for the change to OSLv3 from BSD is to ensure that appropriate Attribution is provided when creating proprietary products that leverage or extend this library.
-
-Help
---------------------
-We will be updating the help guides found @ https://help.form.io as questions arise and also to help you get started with Form.io.
-
-Thanks for using Form.io!
 
 The Form.io Team.
 
